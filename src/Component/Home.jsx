@@ -8,7 +8,11 @@ const Home = () => {
                   a Free app. This SERVICE is provided by
                   Agustin Garcia at no cost and is intended for use as
                   is.
-                </p> <p>
+                </p>
+                <p>
+                MTG Search is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+                </p>
+                 <p>
                   This page is used to inform visitors regarding my
                   policies with the collection, use, and disclosure of Personal
                   Information if anyone decided to use my Service.
