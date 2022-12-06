@@ -1,5 +1,4 @@
 const Contact = () => { 
-
     return (
         <div className="containerPrivacity">
            <h1> Support </h1>
