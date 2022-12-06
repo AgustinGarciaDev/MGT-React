@@ -1,15 +1,24 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Component/Header';
 import Home from './Component/Home';
+import Contact from './Component/Contact'
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
-    <div className="App">
-      <Header/>
-      <Home/>
-    </div>
+   
+      <BrowserRouter>
+        <Header/>
+        <div className="App">
+        <Routes>
+          <Route exact path="/" element = {<Home/>} />
+          <Route exact path="/support" element = {<Contact/>} />
+        </Routes>
+        </div>
+       </BrowserRouter>
+
   )
 }
 
